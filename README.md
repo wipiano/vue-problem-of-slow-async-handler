@@ -2,13 +2,6 @@
 
 vue でイベントハンドラの処理にかかる時間がユーザ操作よりも遅い場合に，
 ユーザが最終的に行った操作と，最終的な画面表示が不整合になる問題の簡単なサンプル．
-Promise に標準的な cancellation の仕組みが備わっててほしいなとおもいます．
-
-fetch のための AbortController という仕組みがあり，本来はこれを正しく利用すればよいのかな，という感じなのかな: https://developer.mozilla.org/en-US/docs/Web/API/AbortController
-
-ky や axios にも同様の仕組みがある．
-
-ワクチンの副反応がおさまったら考察など追記する予定．
 
 動画：
 
